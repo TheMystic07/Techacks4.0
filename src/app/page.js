@@ -1,10 +1,12 @@
-import Image from "next/image";
+"use client"
+
 import Board from "@/components/board";
 import Ide from "@/components/Ide";
 // import {} fr
 
 export default function Home() {
   return (
-    <Ide />
+    // <Board />
+    <Ide suppressHydrationWarning />
   );
 }
