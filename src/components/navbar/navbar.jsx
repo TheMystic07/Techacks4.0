@@ -18,10 +18,13 @@ const Navbar = () => {
             href={x.url}
             key={index}
             className="flex items-center flex-row-reverse group "
+
           >
-            <MdModeStandby className="sm:text-4 xl text-2xl text-primary group-hover:text-accent  transition-all ease-in-out duration-700  sm:ml-5  flex-shrink-0" />
+
+
+            <div className="h-8 w-8 bg-black rounded-full flex justify-center items-center"><div className="bg-white h-6 w-6 rounded-full"></div></div>
             <p
-              className={`opacity-0 group-hover:opacity-100 transition duration-700  text-2xl mr-3 font-bold uppercase`}
+              className={`opacity-0 group-hover:opacity-100 transition duration-700 text-black  text-2xl mr-3 font-bold uppercase`}
             >
               {x.name}
             </p>
