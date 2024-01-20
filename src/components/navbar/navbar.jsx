@@ -3,10 +3,10 @@ import { MdModeStandby } from 'react-icons/md';
 
 const Navbar = () => {
   const menu = [
+    { name: 'Video Call', url: '#video' },
     { name: 'Home', url: '#home' },
     { name: 'Board', url: '#board' },
     { name: 'Ide', url: '#ide' },
-    // { name: 'Tarif', url: '#price' },
     // { name: 'Contact', url: '#contact' },
   ];
 

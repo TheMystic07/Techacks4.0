@@ -6,7 +6,7 @@ import Ide from "../../scr backup /components/Ide";
 
 export default function Home() {
   return (
-    // <Board />
-    <Ide  />
+    <Board />
+    // <Ide  />
   );
 }
