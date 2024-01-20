@@ -11,13 +11,13 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="ml-0 fixed z-10">
-      <ul className="list-disc flex flex-col gap-5 fixed right-0 top-0 bottom-0 justify-center sm:m-10 m-3 ">
+    <nav className="ml-0 fixed z-10 bg-black">
+      <ul className="list-disc flex flex-col  gap-5 fixed right-0 top-0 bottom-0 justify-center sm:m-10 m-3 ">
         {menu.map((x, index) => (
           <a
             href={x.url}
             key={index}
-            className="flex items-center flex-row-reverse group "
+            className="flex items-center flex-row-reverse group bg-black "
           >
             <MdModeStandby className="sm:text-4 xl text-2xl text-primary group-hover:text-accent  transition-all ease-in-out duration-700  sm:ml-5  flex-shrink-0" />
             <p

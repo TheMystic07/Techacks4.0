@@ -9,10 +9,10 @@ function Ide() {
 
     <Iframe
     url="https://www.jdoodle.com/plugin"
-    width="1200px"
-    height="720px"
+    // width="1200px"
+    // height="720px"
     id=""
-    // className=""
+    className="h-screen  w-full"
     // display="block"
     // position="relative"
     />
