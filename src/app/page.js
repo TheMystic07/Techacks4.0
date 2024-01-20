@@ -1,12 +1,13 @@
 "use client"
 
-import Board from "../../scr backup /components/board";
-import Ide from "../../scr backup /components/Ide";
-// import {} fr
+import Board from "../components/board";
+import Ide from "../components/Ide";
 
 export default function Home() {
   return (
+    <>
     <Board />
-    // <Ide  />
+    <Ide  />
+    </>
   );
 }
