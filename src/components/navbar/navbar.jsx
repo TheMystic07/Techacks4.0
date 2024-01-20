@@ -11,8 +11,8 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="ml-0 fixed z-10">
-      <ul className="list-disc flex flex-col gap-5 fixed right-0 top-0 bottom-0 justify-center sm:m-10 m-3 ">
+    <nav className="ml-0 fixed z-10 bg-black">
+      <ul className="list-disc flex flex-col  gap-5 fixed right-0 top-0 bottom-0 justify-center sm:m-10 m-3 ">
         {menu.map((x, index) => (
           <a
             href={x.url}
